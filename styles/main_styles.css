@@ -301,7 +301,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 0%;
-	background: rgba(0,0,0,0.7);
+	background: #333;
 	content: '';
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -357,13 +357,13 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #ffa37b;
+	color: #3EC1D5;
 }
 .book_button
 {
 	width: 152px;
 	height: 54px;
-	background: #ffa37b;
+	background: #3EC1D5;
 	margin-left: 45px;
 	text-align: center;
 	-webkit-transition: all 200ms ease;
@@ -378,7 +378,7 @@ section
 }
 .book_button:hover a
 {
-	color: #ffa37b;
+	color:#3EC1D5;
 }
 .book_button a
 {
@@ -394,7 +394,7 @@ section
 {
 	width: 190px;
 	height: 54px;
-	background: #ffa37b;
+	background: #3EC1D5;
 	margin-left: 14px;
 }
 .header_phone span
@@ -407,7 +407,7 @@ section
 .header_phone span::selection
 {
 	background: #ffffff;
-	color: #ffa37b;
+	color: #3EC1D5;
 }
 .hamburger
 {
@@ -427,7 +427,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #ffa37b;
+	color: #3EC1D5;
 }
 
 /*********************************
@@ -486,7 +486,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #ffa37b;
+	color:#3EC1D5;
 }
 .menu_nav ul li a span
 {
@@ -529,11 +529,11 @@ section
 }
 .menu_book a:hover
 {
-	color: #ffa37b;
+	color: #3EC1D5;
 }
 .menu_book a:hover::after
 {
-	background: #ffa37b;
+	background: #3EC1D5;
 }
 .menu_phone
 {
@@ -614,115 +614,7 @@ section
 	color: #ffffff;
 	line-height: 1.2;
 }
-.booking_form_container
-{
-	width: 100%;
-	margin-top: 34px;
-	padding-left: 78px;
-	padding-right: 88px;
-}
-.booking_form
-{
-	display: block;
-	width: 100%;
-}
-.booking_input
-{
-	width: 100%;
-	height: 54px;
-	background: rgba(255,255,255,0.2);
-	border: solid 2px #ffffff;
-	padding-left: 27px;
-	font-size: 14px;
-	font-weight: 500;
-	color: #ffffff;
-	outline: none;
-}
-.booking_input_container
-{
-	width: 100%;
-}
-.booking_input_container > div
-{
-	padding-right: 10px;
-}
-.booking_input_container > div:first-child,
-.booking_input_container > div:nth-child(2)
-{
-	width: 32.60869565217391%;
-}
-.booking_input_container > div:nth-child(3),
-.booking_input_container > div:nth-child(4)
-{
-	width: 17.39130434782609%;
-}
-.booking_input_a
-{
-	
-}
-.booking_input_b
-{
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	-ms-appearance: none;
-	-o-appearance: none;
-	appearance: none;
-}
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button
-{ 
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	-ms-appearance: none;
-	-o-appearance: none;
-	appearance: none;
-}
-.booking_input::-webkit-input-placeholder
-{
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	color: #FFFFFF !important;
-}
-.booking_input:-moz-placeholder
-{
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	color: #FFFFFF !important;
-}
-.booking_input::-moz-placeholder
-{
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	color: #FFFFFF !important;
-} 
-.booking_input:-ms-input-placeholder
-{ 
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	color: #FFFFFF !important;
-}
-.booking_input::input-placeholder
-{
-	font-size: 14px !important;
-	font-weight: 500 !important;
-	color: #FFFFFF !important;
-}
-.booking_button
-{
-	width: 152px;
-	height: 54px;
-	background: #ffa37b;
-	font-size: 14px;
-	font-weight: 500;
-	color: #ffffff;
-	border: none;
-	outline: none;
-	cursor: pointer;
-}
-.booking_button:hover
-{
-	background: rgba(255,255,255,0.2);
-}
+
 
 /*********************************
 6. Features
@@ -967,7 +859,7 @@ input[type=number]::-webkit-outer-spin-button
 	left: 15px;
 	width: calc(100% - 30px);
 	height: 65px;
-	background: #ffa37b;
+	background:#3EC1D5;
 	text-align: center;
 }
 .booking_link a
@@ -1059,158 +951,164 @@ input[type=number]::-webkit-outer-spin-button
 {
 	color: #ffa37b;
 }
+/*  14.Contact Area
+/*--------------------------------*/
 
+.contact-area {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: auto;
+  width: 100%;
+}
+
+.contact-content {
+  padding: 100px;
+  background: #000 none repeat scroll 0 0;
+}
+
+.contact-content-right {
+  padding: 100px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"] {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  color: #444;
+  height: 40px;
+  margin-bottom: 16px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.contact-form textarea  {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  color: #444;
+  height: 140px;
+  padding: 20px;
+  width: 100%;
+}
+
+.contact-form button[type="submit"] {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  color: #444;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 8px;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  border-radius: 30px;
+}
+
+.contact-form button[type=submit]:hover {
+  color: #fff;
+  border: 1px solid #3EC1D5;
+  background: #3EC1D5;
+}
+
+.contact-form  #sendmessage {
+  color: #3EC1D5;
+  border: 1px solid #3EC1D5;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contact-form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contact-form #sendmessage.show, .contact-form #errormessage.show, .contact-form .show {
+  display: block;
+}
+
+#contact .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.single-icon i {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #444;
+  line-height: 46px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.single-icon p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.contact-icon {
+  margin-bottom: 40px;
+}
+
+#google-map {
+  height: 370px;
+  margin-bottom: 20px;
+}
 /*********************************
 12. Footer
 *********************************/
 
-.footer
-{
-	background: #ffffff;
-	padding-top: 81px;
+
+footer {
+  padding: 50px 0;
+  text-align: center;
+  background:  #333;
 }
-.footer_content
-{
-	padding-bottom: 52px;
+
+footer span.copyright {
+  font-size: 90%;
+  line-height: 40px;
+  text-transform: none;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
-.footer_logo
-{
-	display: inline-block;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+
+footer ul.quicklinks {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
-.footer_logo > div:first-of-type
-{
-	width: 235px;
-	height: 74px;
-	border: solid 3px #393939;
-	font-size: 43.32px;
-	font-weight: 600;
-	color: #393939;
-	line-height: 68px;
+
+ul.social-buttons {
+  margin-bottom: 0;
 }
-.footer_logo > div:last-of-type
-{
-	font-size: 16px;
-	font-weight: 600;
-	color: #393939;
-	line-height: 0.75;
-	margin-top: 15px;
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
 }
-.footer_logo a
-{
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-}
-.footer_row
-{
-	margin-top: 74px;
-}
-.footer_title
-{
-	font-size: 18px;
-	font-weight: 700;
-	color: #393939;
-	line-height: 1.2;
-}
-.footer_list
-{
-	margin-top: 9px;
-}
-.footer_list ul li
-{
-	font-size: 15px;
-	font-weight: 500;
-	color: #6d6d6d;
-	line-height: 2;
-}
-.newsletter_container
-{
-	margin-top: 8px;
-}
-.newsletter_form
-{
-	display: block;
-	position: relative;
-}
-.newsletter_input
-{
-	width: 100%;
-	height: 64px;
-	background: #ffffff;
-	border: none;
-	border-bottom: solid 2px #393939;
-	outline: none;
-	font-size: 15px;
-	font-weight: 600;
-	color: #393939;
-}
-.newsletter_input::-webkit-input-placeholder
-{
-	font-size: 15px !important;
-	font-weight: 500 !important;
-	color: #6d6d6d !important;
-}
-.newsletter_input:-moz-placeholder
-{
-	font-size: 15px !important;
-	font-weight: 500 !important;
-	color: #6d6d6d !important;
-}
-.newsletter_input::-moz-placeholder
-{
-	font-size: 15px !important;
-	font-weight: 500 !important;
-	color: #6d6d6d !important;
-} 
-.newsletter_input:-ms-input-placeholder
-{ 
-	font-size: 15px !important;
-	font-weight: 500 !important;
-	color: #6d6d6d !important;
-}
-.newsletter_input::input-placeholder
-{
-	font-size: 15px !important;
-	font-weight: 500 !important;
-	color: #6d6d6d !important;
-}
-.newsletter_button
-{
-	width: 152px;
-	height: 54px;
-	background: #ffa37b;
-	margin-top: 23px;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	font-size: 14px;
-	font-weight: 600;
-	color: #ffffff;
-}
-.certificates
-{
-	padding-left: 12px;
-	padding-top: 10px;
-}
-.cert
-{
-	margin-bottom: 30px;
-}
-.copyright
-{
-	width: 100%;
-	height: 33px;
-	background: #ffffff;
-	text-align: center;
-	line-height: 33px;
-	font-size: 15px;
-	font-weight: 500;
-	color: #6d6d6d;
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #3EC1D5;
 }

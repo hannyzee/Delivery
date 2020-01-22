@@ -118,35 +118,25 @@ $(document).ready(function()
 		}	
 	}
 
-	/* 
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
 
-	5. Init Booking Slider
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
 
-	*/
-
-	function initBookingSlider()
-	{
-		if($('.booking_slider').length)
-		{
-			var bookingSlider = $('.booking_slider');
-			bookingSlider.owlCarousel(
-			{
-				items:3,
-				autoplay:true,
-				autoplayHoverPause:true,
-				loop:false,
-				smartSpeed:1200,
-				dots:false,
-				nav:false,
-				margin:30,
-				responsive:
-				{
-					0:{items:1},
-					768:{items:2},
-					992:{items:3}
-				}
-			});
-		}
-	}
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
 
 });
