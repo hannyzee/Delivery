@@ -32,7 +32,7 @@
 		<div class="menu_extra">
 			<div class="menu_book text-right"><a href="order.php">Place Order</a></div>
 			<div class="menu_phone d-flex flex-row align-items-center justify-content-center">
-				<img src="images/phone-2.png" alt="">
+				<div class="icon"><i class="ion-ios-eye-outline"></i></div>
 				<span>0183-12345678</span>
 			</div>
 		</div>

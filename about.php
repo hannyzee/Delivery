@@ -4,7 +4,6 @@
 <head>
 <?php include("main/head.php");?>
 <link rel="stylesheet" type="text/css" href="styles/about.css">
-<link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
 </head>
 <body>
 
